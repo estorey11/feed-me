@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DeliveryForm from './DeliveryForm'
 
-class FormContainer extends Component {
+class SearchContainer extends Component {
 
   state={
     address1: "",
@@ -38,4 +38,4 @@ class FormContainer extends Component {
 
 
 
-export default FormContainer
+export default SearchContainer
