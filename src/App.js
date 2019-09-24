@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FormContainer from './components/FormContainer'
+import SearchContainer from './components/SearchContainer'
 
 function App() {
   return (
     <div className="App">
-      <FormContainer />
+      <SearchContainer />
     </div>
   );
 }

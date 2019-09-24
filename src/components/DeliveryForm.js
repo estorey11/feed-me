@@ -7,7 +7,7 @@ class DeliveryForm extends Component {
   render() {
     return(
       <div>
-        <Form onChange={this.props.handleFormChange}>
+        <Form onChange={this.props.handleFormChange} onSubmit={this.props.handleOnSubmit}>
           <FormGroup>
             <Label for="address1">Address</Label>
             <Input type="text" name="address1" id="address1" value={this.props.address1} />
